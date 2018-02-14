@@ -1,0 +1,307 @@
+/*=================================================================
+                        DEFAULT VALUES:
+                        
+                        Font Family             : Oswald
+                        
+                        Rich Black              :#040404   (Text)
+                        Timberwolf              :#d7d9ce   (buttons,Backgrounds)
+                       Metallic Seaweed         :#0c7489   (Text with black background)
+                        Midnight Green          :#13505b    (Heading)   
+                        Blue-Green              :#119da4   (links, lines) 
+                        
+======================================================================*/
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+/*=================================================================
+                            HOME
+=================================================================*/
+
+#home {
+    height: 100%;
+
+}
+
+#home-cover {
+
+    height: 100%;
+    background-image: url("../img/web%20page%20background%20image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+
+#home-heading h3 {
+    color: #d7d9ce;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+
+}
+
+#home-heading p {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+/*=================================================================
+                            BUTTONS (Generic)
+=================================================================*/
+
+.btn-general {
+    border-color: #d7d9ce;
+    border-width: 2px;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.btn-white {
+    border-color: #d7d9ce;
+    color: #d7d9ce;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #d7d9ce;
+    color: #119da4;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/*=================================================================
+                            CONTENT (Generic)
+=================================================================*/
+
+.content-box {
+    padding: 60px 0 60px 0;
+    background-color: #d7d9ce;
+
+}
+
+.content-title h3 {
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px 0;
+
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #0c7489;
+    margin: 0 auto 30px auto;
+
+
+}
+
+/*=================================================================
+                            My Work (Generic)
+=================================================================*/
+
+.about-item {
+
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #13505b;
+
+}
+
+.about-item-icon i {
+
+    color: #13505b;
+    float: center;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+
+}
+
+.about-item:hover .about-item-icon i {
+    color: #119da4;
+    background-color: #fff;
+
+}
+
+/*==================================================
+                        CONTACT
+==================================================*/
+
+footer {
+    background-color: #0c7489;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 1.0);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info address {
+    color: #fff;
+}
+
+address strong {
+    font-size: 16px;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*==================================================
+                     FOOTER
+==================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #fff;
+}
+
+.social-list > li > a {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+/*====================================================================
+
+                            NAVIGATION
+====================================================================*/
+
+.navbar {
+    padding: 20px 0;
+
+}
+
+.portfolio-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: #d7d9ce;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #119da4;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.portfolio-top-nav ul.navbar-nav > li.active > a {
+    color: #119da4;
+}
